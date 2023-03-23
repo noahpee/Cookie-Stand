@@ -31,6 +31,8 @@ h1 {
 
 li {
     list-style: none;
+    display: inline-block;
+    margin: 0 0.5rem;
 }
 
 a {
@@ -38,3 +40,10 @@ a {
     color: inherit;
 }
 
+@media(min-width: 700px){
+    .header-container{
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+}
