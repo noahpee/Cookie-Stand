@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js"></script>
     <script src="demoscripts.js"></script>
 </head>
 <body>
@@ -29,11 +28,15 @@
     </header>
     <main>
         <div class="container main-container">
+            <h2 id="demo"> hi 
+                <script>
+                    yourName()
+                </script>
+            </h2>
             <section class="hero-section">
                     <img class="hero-img" src="images/bad cookies.jpeg" alt="">
                     <p class="hero-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem maxime quo omnis dicta obcaecati praesentium error ullam ipsa, consequuntur expedita laboriosam accusantium repellendus voluptates vel? Cum eos laboriosam non libero nobis omnis error ea numquam unde? Iste error necessitatibus aut voluptate minima? Voluptates magnam exercitationem nulla odio sunt? Recusandae, ut.</p>
             </section>
-
             <section class="cookie-section">
             <div class="img-container">
                 <img class="cookie-img" src="images/111.jpeg" alt="">
@@ -48,11 +51,26 @@
                 <p class="img-text">Lorem ipsum dolor sit.</p>
             </div>
         </section>
-
             <section class="cooke-text-section">
-                    <p></p>
-            </section>
+                <label for="">how many dogs do you need</label>
+            <select class="dropDown" onchange="dogOption()" id="dogSelect" name="browseType" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>   
+        </section> 
         </div>
+        <p>
+            <script>
+              document.write(timeOfDay());
+            </script>
+          </p>
+  
     </main>
     <footer>
         <div class="container footer-container">
