@@ -38,4 +38,17 @@ function timeOfDay() {
   return message;
 }
 
+function guessNumber(){
+  let answer;
 
+  while(answer != 7){
+
+    answer = prompt('guess a number between 1 and 10')
+
+    if(answer != 7) {
+      alert('try again')
+    } else {
+      alert("contgrats ur gr8")
+    }
+  }
+}
